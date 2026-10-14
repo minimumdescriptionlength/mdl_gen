@@ -128,3 +128,19 @@ conda run -n mdl python compute_metrics_cifar_ib.py \
 
 Uses the same correlation metrics as CIFAR-10. Optionally pass `--no_filter` to
 skip the `train_acc > 0.85` filter.
+
+---
+
+## Reference
+
+If you find this work useful, please cite:
+
+```bibtex
+@inproceedings{yang2026does,
+  title     = {Does Compression Imply Generalization? A Minimum Description Length Perspective},
+  author    = {Yang, Lincen and Shi, Jiayang and Pu, Nan and Pelt, Daniel and van Leeuwen, Matthijs and Li, Zhong and Yu, Shujian},
+  booktitle = {The Fortieth Annual Conference on Neural Information Processing Systems},
+  year      = {2026},
+  url       = {https://openreview.net/forum?id=dQ36O5uJBs}
+}
+```
